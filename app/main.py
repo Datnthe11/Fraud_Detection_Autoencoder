@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 import os
 import sys
 
-model = load_model("best_autoencoder.keras")
+model = load_model("app/best_autoencoder.keras")
 
 # Tạo app FastAPI
 app = FastAPI()
